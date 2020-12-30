@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../image/profile.png'
+import logo from '../image/profile.png';
+import { FaMobileAlt, FaMailBulk, FaLaptop } from "react-icons/fa";
+import { VscOrganization } from "react-icons/vsc";
+import { BsPeopleCircle } from "react-icons/bs";
+
 
 export class ProfileImage extends Component {
     render() {
         return (
             <div className="container">
                 <div className="row d-flex justify-content-center">
-                    <div className="col-sm-4 imTwoWhite d-flex justify-content-center align-items-center" style={{background:"#145374"}}>
+                    <div className="col-sm-4 imTwoWhite d-flex justify-content-center align-items-center" style={{background:""}}>
                         <img
                             src={logo}
                             style={{
@@ -21,13 +25,13 @@ export class ProfileImage extends Component {
                     </div>
                     
                     <div className="col-sm-8 imTwoWhite">
-                        <div className="mb-2 imTwoWhite" style={{background:"#f05454"}}>
-                        <h1 style={{fontSize:"20px", color:"#fff"}}>Md. Monirul Islam</h1>
+                        <div className="mb-2 imTwoWhite " style={{background:"#f05454"}}>
+                        <h1 className="" style={{fontSize:"20px", color:"#fff"}}><BsPeopleCircle/> Md. Monirul Islam</h1>
                         </div>
-                        <h3 style={{fontSize:"17px", color:"#fbecec"}}>Software Engineer</h3>
-                        <h5 style={{fontSize:"14px", color:"#e0ece4"}}>Era InfoTech Ltd.</h5>
-                        <h5 style={{fontSize:"14px", color:"#cffffe"}}>monirshimul@erainfotechbd.com</h5>
-                        <h5 style={{fontSize:"14px", color:"#f9f7d9"}}>01912991020</h5>
+                        <h3 style={{fontSize:"17px", color:"#fbecec"}}><FaLaptop/> Software Engineer</h3>
+                        <h5 style={{fontSize:"14px", color:"#e0ece4"}}><VscOrganization/> Era InfoTech Ltd.</h5>
+                        <h5 style={{fontSize:"14px", color:"#cffffe"}}><FaMailBulk/> monirshimul@erainfotechbd.com</h5>
+                        <h5 style={{fontSize:"14px", color:"#f9f7d9"}}><FaMobileAlt/> 01912991020</h5>
                     </div>
                 </div>
                 

@@ -8,7 +8,7 @@ import { SiRedux } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { VscVmRunning } from "react-icons/vsc";
-import { FaFacebook, FaLinkedin, FaInstagram, FaReact, FaNodeJs, FaEthereum } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram, FaReact, FaNodeJs, FaEthereum, FaVuejs, FaAngular, FaJava, FaBootstrap, FaBookReader, FaPython } from "react-icons/fa";
 import { BrowserRouter as Router, Switch, Route, Link, Redirect, withRouter } from 'react-router-dom';
 import Bio from './component/right/Bio'
 
@@ -21,20 +21,20 @@ function App() {
             <div className="sideArea imTwoWhite col-sm-3 col-md-3 col-lg-3" style={{ height: "100vh", background: "#f4f4f4", cursor: "pointer", overflowY: "auto", overflowX:"hidden" }}>
               <ProfilePic />
               <div className="imTwoWhite mt-3 row d-flex justify-content-center">
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightOne" style={{ color: "#16697a" }}><Link to="/bio"><span style={{ fontSize: "30px" }}><FaReact /></span> Bio</Link></h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightOne" style={{ color: "#16697a" }}><Link style={{color: "#16697a", textDecoration:"none"}} to="/bio"><span style={{ fontSize: "30px" }}><FaBookReader /></span> Bio</Link></h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightTwo" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaReact /></span> React Projects</h5></div>
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightMain" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaReact /></span> React Projects</h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaNodeJs /></span> Node Projects</h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightFour" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><SiRedux /></span> Redux Projects</h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightMain" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><DiJavascript /></span> Vanilla Projects</h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightTwo" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><GiArtificialIntelligence /></span> AI Projects</h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><VscVmRunning /></span> Live Projects</h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaJava /></span> Java Projects</h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaBootstrap /></span> Bootstrap Projects</h5></div>
                 <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightFour" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaEthereum /></span> Blockchain Projects</h5></div>
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightMain" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaReact /></span> React Native Projects</h5></div>
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightTwo" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><GiArtificialIntelligence /></span> AI Projects</h5></div>
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><VscVmRunning /></span> Live Projects</h5></div>
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightFour" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaEthereum /></span> Blockchain Projects</h5></div>
-                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightMain" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaReact /></span> React Native Projects</h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightMain" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaReact /></span> R.Native Projects</h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightTwo" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaPython /></span> Python Projects</h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaAngular /></span> Angular Projects</h5></div>
+                <div className="imTwoWhite col-sm-6 mt-1 text-center"><h5 className="lightThree" style={{ color: "#16697a" }}><span style={{ fontSize: "30px" }}><FaVuejs /></span> Vue Projects</h5></div>
                 
               </div>
 
